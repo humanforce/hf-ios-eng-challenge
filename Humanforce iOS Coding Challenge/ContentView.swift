@@ -1,19 +1,19 @@
-//
-//  ContentView.swift
-//  Humanforce iOS Coding Challenge
-//
-//  Created by Lachlan on 2/12/2024.
-//
-
 import SwiftUI
 
+
 struct ContentView: View {
+    @State private var apiKey = APIKeyManager.weatherAPIKey
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(spacing: 10) {
+            Image(systemName: "hand.wave")
+                .font(.title)
+                .symbolEffect(.wiggle)
+            Text("Humanforce iOS Engineering Challenge")
+                .font(.title)
+                .multilineTextAlignment(.center)
+            Text("Refer to project README for requirements!")
+                .font(.caption)
+                .multilineTextAlignment(.center)
         }
         .padding()
     }
