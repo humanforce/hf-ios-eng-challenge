@@ -40,43 +40,43 @@ An `APIKeyManager` helper is provided for you to access the API key. If the prev
 These are the general requirements that apply broadyly to the specific functional requirements that are to be implemented.
 
 #### Weather Display
-- Show weather in metric units
-- Use weather condition icons
+  - Show weather in metric units
+  - Use weather condition icons
   - Use provided OpenWeatherMap icons, or SF Symbols.
 
 #### Error Handling
-- Gracefully manage:
+  - Gracefully manage:
   - Network connectivity issues
   - API errors
   - Location service restrictions
 
 
 #### Technical Constraints
-- Use Swift & SwiftUI
-- Implement robust error management
-- Create intuitive, responsive UI
+  - Use Swift & SwiftUI
+  - Implement robust error management
+  - Create intuitive, responsive UI
+---
 
 ## Functional Requirements
 
-### 1. Display weather for current location
+#### 1. Display weather for current location
   - Automatically fetch and display current weather for the user's current location
   - Display 5-day forecast for current location
   - Handle location services unavailability gracefully
 
-### 2. Location search and management
+#### 2. Location search and management
   - Implement city search functionality
   - Allow searching locations by city name
   - Display search results
   - Select a search result to view current weather and five day forecast
   - Show 5-day forecast for selected location
 
-### 3. Save Locations
+#### 3. Save Locations
   - Save favorite locations
   - Display a list of saved locations
   - Switch between saved locations
 
-
-## Bonus Points
+#### Bonus Points
 - Implement offline caching
 - Support multiple temperature units
 - Implement widget extension
