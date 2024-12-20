@@ -39,22 +39,17 @@ An `APIKeyManager` helper is provided for you to access the API key. If the prev
 ## General Requirements
 These are the general requirements that apply broadyly to the specific functional requirements that are to be implemented.
 
+> **Important**: The project must use Swift & SwiftUI
+
 #### Weather Display
-  - Show weather in metric units
-  - Use weather condition icons
-  - Use provided OpenWeatherMap icons, or SF Symbols.
+- Show weather in metric units
+- Use provided OpenWeatherMap icons (or SF Symbols).
 
 #### Error Handling
-  - Gracefully manage:
+- Gracefully manage:
   - Network connectivity issues
   - API errors
-  - Location service restrictions
-
-
-#### Technical Constraints
-  - Use Swift & SwiftUI
-  - Implement robust error management
-  - Create intuitive, responsive UI
+  - Location permissions
 ---
 
 ## Functional Requirements
@@ -77,17 +72,18 @@ These are the general requirements that apply broadyly to the specific functiona
   - Switch between saved locations
 
 #### Bonus Points
-- Implement offline caching
-- Support multiple temperature units
-- Implement widget extension
+  - Add unit tests
+  - Implement offline caching
+  - Support for multiple temperature units
+  - Implement a homescreen widgets
 
 ## Submission Guidelines
 1. Provide any additional setup instructions
 2. Include comments explaining complex logic
-3. Submit code that runs without additional configuration
+3. Advise our talent acquisition team once you have completed the assessment so that our team can begin their evaluation.
 
 ## Time Expectation
-- Estimated completion time: 4-6 hours
+- Estimated completion time: 6 hours
 - Focus on quality over complete feature set
 
 ## Questions?
